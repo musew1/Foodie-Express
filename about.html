@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Foodie Express</title>
+</head>
+
+<header>
+  <img src="menu.png" style=" padding-left: 10px; cursor: pointer;" onclick="openNav()" >
+  <a href="cart.html"><img src="cart.png" class="cart"></a>
+</header>
+<body>
+
+  <p class="carttitle" style="left: 40px; top: 70px;">About Us:</p>
+
+  <div class="box3" style="top: 120px; left: 25px;">
+    <p style="width: 800px;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante venenatis turpis efficitur commodo sit amet
+    vel felis. Aenean vel lectus augue. Praesent euismod blandit magna a pellentesque. Proin
+    eget bibendum risus. Vestibulum elementum egestas fermentum. Praesent et quam
+    vel nibh aliquet luctus.
+    </p>
+    <img src="logo.png" height="200px" style="position: absolute; right: 20px;top: 10px;">  
+  </div>
+
+  <div class="box3" style="top:350px; left: 25px;">
+    <img src="about.png" height="200px" width="200px" style="position: absolute; left: 20px;top: 10px;"> 
+    <p style="width: 1000px; position: absolute; left: 250px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante venenatis turpis efficitur commodo sit amet
+      vel felis. Aenean vel lectus augue. Praesent euismod blandit magna a pellentesque. Proin
+      eget bibendum risus. Vestibulum elementum egestas fermentum. Praesent et quam
+      vel nibh aliquet luctus.
+      </p>
+  </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+</body>
+
+</html>

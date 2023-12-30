@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Foodie Express</title>
+</head>
+
+<header>
+  <img src="menu.png" style=" padding-left: 10px; cursor: pointer;" onclick="openNav()" >
+  <a href="cart.html"><img src="cart.png" class="cart"></a>
+</header>
+<body>
+
+  <p class="carttitle" style="left: 40px; top: 70px;">Contact Us:</p>
+
+  <div class="box4" style="top: 120px; left: 25px;">
+    <img src="insta.png">
+  </div>
+
+  <div class="box4" style="top:120px; left:470px;">
+    <img src="facebook.png">
+  </div>
+
+  <div class="box4" style="top:120px; left:920px;">
+    <img src="whatsapp.png">
+</div>
+
+<div class="box3" style="top:360px; left:25px">
+    <img src="number.png">
+</div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+</body>
+
+</html>
