@@ -8,7 +8,7 @@ body {
 header {
     background-color: #000000;
     color: white;
-    padding: 1em 0;
+    padding: 2px;
 }
 
 
@@ -26,3 +26,104 @@ header {
   .banner{
     padding-left: 100px;
   }
+  .titlename{
+    color: #000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    right: 1208px;
+  }
+  .subtitletext{
+    color: #000;
+    font-family: Kameron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    right: 1215px;
+  }
+  .subtitletext2{
+    color: #000;
+    font-family: Kameron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 115px;
+    right: 1215px;
+  }
+ .todaysdeals{
+    color: #000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    right: 1200px; 
+    top:295px;
+ }
+.deal1{
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 190px;
+}
+.deal2{
+    padding-right: 190px;
+}
+.prices{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

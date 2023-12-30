@@ -9,11 +9,48 @@
 </head>
 
 <header>
-    <img src="menu.png" style="padding-right: 1240px; padding-left: 10px;" >
+    <img src="menu.png" style="padding-right: 1240px; padding-left: 10px; cursor: pointer;" onclick="openNav()" >
     <img src="cart.png">
 </header>
 <body>
-    <img src="banner.jpg" width="1366px" height="320px">
+    <div>
+    <img src="banner.jpg" width="1366px" height="250px">
+    <p class="titlename">Foodie Express</p>
+    <p class="subtitletext">Whatever you want,</p>
+    <p class="subtitletext2">Wherever you want.</p>
+    </div>
+
+    <p class="todaysdeals">Today's Deals</p>
+    <img class="deal1" src="deal1.png" height="190px" width="300px">
+    <img class="deal2" src="deal2.png" height="190px" width="300px">
+    <img src="deal3.png" height="190px" width="300px">
+    <p class="prices" style="left: 30px;">Wings Deal</p>
+    <p class="prices" style="top: 565px; left: 30px;">999PKR</p>
+    <p class="prices" style="left: 525px;">Burger Deal</p>
+    <p class="prices" style="top: 565px; left: 525px;">799PKR</p>
+    <p class="prices" style="left: 1020px;">Shawarma Deal</p>
+    <p class="prices" style="top: 565px; left: 1020px;">699PKR</p>
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Cart</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
 </body>
 
 </html>
